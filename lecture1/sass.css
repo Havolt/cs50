@@ -6,4 +6,36 @@ h1 {
   color: indigo;
 }
 
+.nesting {
+  background: lightgrey;
+}
+.nesting h2 {
+  color: green;
+}
+.nesting p {
+  border: 2px solid indigo;
+}
+
+.primary, .failure, .success {
+  font-family: arial;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.success {
+  background: green;
+}
+
+.failure {
+  background: red;
+}
+
+.primary {
+  background: blue;
+}
+
 /*# sourceMappingURL=sass.css.map */
