@@ -1,0 +1,123 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Layout</title>
+    <style>
+    
+    .headDiv{
+        background: orange;
+    }
+
+    .homeDiv{
+        background: rgb(216, 164, 67);
+    }
+
+    nav{
+        
+        width: 300px;
+    }
+
+    ul{
+        list-style: none;
+        color: white;
+    }
+
+    ul > li{
+        border: 1px solid #444;
+        border-bottom: none;
+        padding: 1px;
+        background: blue;
+    }
+
+    ul > li:nth-last-child(1){
+        border-bottom: 1px solid #444;
+    }
+
+    table, td, th{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+
+    }
+
+    td, th{
+        width: 140px;
+        padding: 3px;
+    }
+
+    .dogFig{
+        float: right;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="headDiv">
+            <header>Independent News</header>
+            <div class="homeDiv">Homepage</div>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li>News</li>
+                    <li>Sports</li>
+                    <li>Weather</li>
+                    <li>Entertainment</li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Temperature</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>30</td>
+                    <td>Mostly Cloudy</td>
+                </tr>
+                <tr>
+                        <td>Tuesday</td>
+                        <td>29</td>
+                        <td>Clear</td>
+                </tr>
+                <tr>
+                        <td>Wednesday</td>
+                        <td>27</td>
+                        <td>Cloudy with Showers</td>
+                </tr>    
+            </table>
+        </div>
+        <div>
+            <article>
+                <h2>Abandoned Dogs Get New Home</h2>
+
+                <p>Fido and Benji are very happy to have found a new home. Both dogs were found running around the forest near city limits. They were rescued by the SPCA and quickly adopted by a couple from the suburbs.</p>
+                <section>
+                    <address>
+                        By Joe Reporter
+
+                        Human Interest News
+                            
+                        New York headquarters
+                    </address>
+                </section>
+                <figure class="dogFig">
+                    <img src="dogs.jpg" alt="">
+                    <figcaption>Happy Dogs</figcaption>
+                </figure>
+            </article>
+        </div>
+    </div>
+
+</body>
+</html>
