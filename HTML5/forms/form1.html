@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table1</title>
+</head>
+<body>
+
+
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+
+        <input type="text" name="name" placeholder="Name.."><br><br>
+        <input name="email" type="email" placeholder="Email.."><br><br>
+        <input name="password" type="password" placeholder="Password.."><br><br>
+        <textarea name="comments" id="formComments" cols="50" rows="10" placeholder="Comments.."></textarea>
+        <div>
+            <div>
+                <input type="checkbox" name="interests" id="formMusic" value="formMusic">
+                <label for="formMusic">Music</label>
+            </div>
+            <div>
+                    <input type="checkbox" name="interests" id="formSports" value="formSports">
+                    <label for="formSports">Sports</label>
+            </div>
+            <div>
+                    <input type="checkbox" name="interests" id="formComputers" value="formComputers">
+                    <label for="formComputers">Computers</label>
+            </div>
+        </div>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
