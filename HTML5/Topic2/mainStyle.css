@@ -53,6 +53,10 @@ body{
     background: rgb(236, 235, 235);
 }
 
+.outP > div{
+    display: inline-flex;
+}
+
 .hidden{
     display: none;
 }
